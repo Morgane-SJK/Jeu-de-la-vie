@@ -4,6 +4,8 @@
 
 **Date de réalisation :** Avril 2018
 
+**Cadre du projet :** Cours "Tableaux et Algorithmes" en 1ère année de prépa intégrée à l'ESILV
+
 **Langage utilisé :** C#
 
 Le jeu de la vie a été imaginé par John Horton Conway vers 1970. C’est un « jeu à zéro joueur » car l’intervention d’aucun joueur n’est nécessaire à son déroulement. Le jeu de la vie se déroule sur une grille à deux dimensions, théoriquement infinie, composée de cases (appelées cellules) qui ont un état binaire (1 pour vivante et 0 pour morte).
