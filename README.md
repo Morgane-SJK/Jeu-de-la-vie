@@ -14,7 +14,24 @@ Le jeu de la vie a été imaginé par John Horton Conway vers 1970. C’est un �
 
 Il s’agit d’un automate cellulaire qui repose sur le principe d’évolution de la grille dans le temps. A chaque étape, appelée génération, les cellules évoluent en fonction de leur voisinage et selon des règles spécifiques.
 
-J’ai développé une variante du jeu de la vie avec deux populations de cellules distinctes évoluant sur la même grille. Par ailleurs, ne disposant pas d’une grille de dimension infinie, j’ai adopté des conventions pour obtenir une grille circulaire : les bords gauche et droit de la grille, ainsi que les bords haut et bas de la grille, sont connectés.
+Ne disposant pas d’une grille de dimension infinie, j’ai adopté des conventions pour obtenir une grille circulaire : les bords gauche et droit de la grille, ainsi que les bords haut et bas de la grille, sont connectés.
+
+Pour une population de cellules évoluant sur la grille, nous pouvons voir les états intermédiaires de chaque cellule : celles qui deviendront vivantes à la génération suivante et celles qui deviendront mortes.
+
+<p align="center">
+  <img src="./images/Population1_Generation1.png" height="300">
+  <img src="./images/Population1_Generation1+.png" height="300">
+  <img src="./images/Population1_Generation2.png" height="300">
+</p>
+
+J’ai également développé une variante du jeu de la vie avec deux populations de cellules distinctes évoluant sur la même grille.
+
+<p align="center">
+  <img src="./images/Population2_Generation1.png" height="300">
+  <img src="./images/Population2_Generation1+.png" height="300">
+  <img src="./images/Population2_Generation2.png" height="300">
+</p>
+
 
 ## Structure des fichers et utilisation de la GUI
 
